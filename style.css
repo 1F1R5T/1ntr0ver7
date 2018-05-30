@@ -1,0 +1,133 @@
+body {
+	background-color: #ecf0f1;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Header */
+
+header a:hover{
+    background-color: #FF0046;
+	box-shadow: 0 2px 3px 0 #7f8c8d;
+	color: #ECF0F1;
+}
+
+header {
+	background-color: #FF0046;
+	box-shadow: 0 2px 3px 0 #7f8c8d;
+	color: #ecf0f1;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+header .header {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header h1 {
+  padding: 10px;
+  float: left;
+  text-align: center;
+	font-weight: 700;
+	text-shadow: 2px 2px 0 #e74c3c;
+}
+
+header nav {
+	float: right;
+	margin: 38px 0 0 0;
+}
+
+header nav ul {
+	margin: 0;
+}
+
+header nav ul li {
+	display: inline;
+	margin: 0 5px;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+section {
+	position: relative;
+	width: 70%;
+	margin: 120px auto 0 auto;
+}
+
+section article {
+	text-align: left;
+	background-color: #FFF;
+	box-shadow: 1px 1px 5px 1px #7f8c8d;
+	padding: 15px;
+	line-height: 25px;
+	margin: 15px auto;
+}
+
+section article p {
+	text-indent: 30px;
+	font: 400 16px Calibri;
+}
+
+/* Footer */
+
+footer{
+    padding: 2em 0;
+    padding-top: 2em;
+    padding-right: 0px;
+    padding-bottom: 2em;
+    padding-left: 0px;
+    text-align: center;
+    background: #1F1F1F;
+    background-color: rgb(31, 31, 31);
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    color: white;
+}
+
+/* Logo */
+
+.logo{
+  float: right;
+}
+
+/* Header Logo */
+
+.header-logo{
+  padding: 9em 0;
+  padding-bottom: 2em;
+  text-align: center;
+  background: #141819;
+}
+
+/* Content */
+
+.content li{
+    list-style: none;
+    text-align: center;
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.content a:hover{
+    background-color: #EDEDED;
+	box-shadow: 0 2px 3px 0 #7f8c8d;
+	color: #141819;
+}
